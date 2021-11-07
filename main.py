@@ -124,7 +124,7 @@ while response:
         "description": description,
         "evolutions": evolutions
     }
-    save("pokemon", index, data)
+    save("pokemon", name, data)
 
     # Move to next page
     nextDiv = soup.find("div", {"data-source": "ndexnext"})
